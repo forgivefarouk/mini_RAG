@@ -55,7 +55,6 @@ async def upload(file_id : str, file : UploadFile, app_settings : Settings = Dep
         }
         )
         
-    logging.info("An INFO")
 
     return JSONResponse(
         content={
